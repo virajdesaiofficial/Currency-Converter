@@ -1,0 +1,50 @@
+//Created by Viraj Desai
+//Last edited on 06/10/2018
+
+Requirements : Python 3 should be installed on your computer.
+
+If Python is not installed ,
+
+1) Installation on Windows
+
+Download and install Python 3.7.0 for Windows
+Go to Python 3.7.0 downloads page
+Find and download the Windows installer file that matches your system.
+Open the file to start the installation wizard.
+Follow the instructions and make a note of where Python is installed on your system.
+
+Add Python to path
+In the Windows menu, search for "advanced system settings" and select View advanced system settings.
+In the window that appears, click "Environment Variables" near the bottom right.
+In the next window, find and select the user variable named Path and click "Edit" to change its value. The value for this variable is a semi-colon-delimited list of file locations.
+Scroll to the end of the value, add a semi-colon, and then add the location of python.exe. (If you do not know where your python.exe is, you can search for it.)
+Click OK to save this change.
+If you do not have a user variable named Path, click the "New" button.
+Add a variable named Path and make its value the location of python.exe.
+
+Finding python.exe
+If you do not know where Python was installed, search for python.exe in the Windows menu.
+Right-click the file name in the results, select Properties, and find Location.
+Copy the location and add it to your path variable.
+Confirm addition to path
+Open a new command prompt and re-run the original command:
+python
+to confirm that Python 3.7.0 is installed and added to your path.
+
+2)Installation on Linux
+
+Open Terminal
+Run the following command:
+sudo apt-get install python3
+After the installation is complete type python to confirm the installation.
+
+1. Download the CurrencyConverterApp.zip file and decompress the file using WinRAR or any other unzip software.
+2. Copy the CurrencyConverterApp folder and paste it to your desired location .
+3. Open Windows CMD or Linux terminal.
+4. Go to the location where you pasted your folder by typing cd path command , where path is the location of the software.
+   Example: The folder is on desktop , type cd Desktop
+5. Now type the following command
+   python3 converterMain.py
+6. This will run the main module and then you can perform the desired functions.
+
+You will be guided through the program by the comments present alongside the code.

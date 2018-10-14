@@ -1,0 +1,7 @@
+Whom to contact for assistance?
+Please contact Viraj Desai on xyz@gmail.com
+How to choose countries?
+Choose countries from the drop down menu provided in the application.
+Why are there only few conversions present?
+Currently we are developing the text file for storing the rates.New conversions will be out soon.
+Who am I?
