@@ -5,7 +5,7 @@ def pay():
 	uname_receiver=input("Please enter receiver's username ")
 	pay_amount=int(input("Enter amount to be sent! "))
 	flag=0
-	f=open('Backup.txt','w')		#Backup file 
+	f=open('Backup.txt','w')		#open Backup file 
 	with open('UserData.txt','r') as file:	
 		for line in file:
 			uname,password,name,email,contact,amount=line.strip().split(" ")
